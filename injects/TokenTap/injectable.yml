@@ -1,0 +1,11 @@
+name: TokenTap
+type: Application
+target: Discord
+description: |
+  Extract your discord token with ease with this simple injectable.
+  This injectable could be easily manipulated to exfiltrate tokens, and thus used for malicious purposes.
+  Use wisely, I will not be held responsible for any wrong doing done with this payload
+instructions: |
+  Find your `discord_desktop_code/index.js` and insert the payload before anything else in the file
+  Now run Discord from the command line, you should see your token pop up every so often.
+file: tokentap.js
